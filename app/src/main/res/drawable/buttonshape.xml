@@ -1,0 +1,13 @@
+<!-- res/drawable/button_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/button_green"/> <!-- Button color -->
+    <corners android:radius="32dp"/> <!-- Rounded corners -->
+    <stroke
+        android:width="4dp"
+        android:color="#FFFFFF"/> <!-- Border width and color -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"/> <!-- Padding inside the button -->
+</shape>
